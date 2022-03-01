@@ -1,0 +1,32 @@
+﻿body {
+    background-image: url('backgroundImage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+form {
+    background-color: #fff;
+    max-width: 50%;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.vertical-center {
+    margin-left: 40%;
+}
+
+.lookupImg {
+    display: block;
+    float: left;
+    padding-top: 2px;
+    border: 1px solid #b7b7b7;
+    height: 18px;
+    width: 18px;
+}
+
+.invalid-feedbackCustom{
+    display:none;
+    font-size:small;
+}
